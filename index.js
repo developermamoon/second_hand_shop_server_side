@@ -12,7 +12,7 @@ app.use(cors())
 app.use(express.json())
 
 // const allCars = require('./Data/allCars.json');
-const carCategories = require('./Data/CarCategories.json');
+// const carCategories = require('./Data/CarCategories.json');
 
 
 
@@ -24,6 +24,7 @@ async function run(){
     try{
 
         const allCarsData = client.db('SellAnyCarServer').collection('AllCars');
+        const selectedCarsData = client.db('SellAnyCarServer').collection('categoryNames');
         
         
         // getting allCars data from the database
@@ -32,6 +33,14 @@ async function run(){
             const cursor = allCarsData.find(query);
             const allCars = await cursor.toArray();
             res.send(allCars);
+        })
+        
+        // getting selectedCars data from the database
+        app.get('/categories', async(req, res)=>{
+            const query = {};
+            const cursor = selectedCarsData.find(query);
+            const selectedCategoryCarsData = await cursor.toArray();
+            res.send(selectedCategoryCarsData);
         })
 
         // getting selected category cars data
@@ -52,6 +61,10 @@ async function run(){
             }
             
         })
+
+        app.get('/categories', (req, res)=>{
+
+        })
     }
     finally{}
 }
@@ -68,24 +81,11 @@ app.get('/', (req, res) => {
 });
 
 
-app.get('/categories', (req, res) =>{
-    res.send(carCategories);
-})
-
-// app.get('/allCars', (req, res)=>{
-//     res.send(allCars);
+// app.get('/categories', (req, res) =>{
+//     res.send(carCategories);
 // })
 
-// app.get('/category/:id', (req, res)=>{
-//     const id = req.params.id;
-//     if(id === '7'){
-//         res.send(allCars)
-//     }
-//     else{
-//         const selectedCars = allCars.filter(n => n.category_id === id);
-//         res.send(selectedCars);
-//     }
-// })
+
 
 app.listen(port, () => {
     console.log('Dream Car Server running on port', port);

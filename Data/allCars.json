@@ -1,7 +1,7 @@
 [
     {
         "category_id": "1",
-        "_id": "1",
+        "category_name": "Sedan",
         "model_name": "Premio",
         "img": "https://i.ibb.co/jrLdryK/premio.jpg",
         "location": "Dhaka",
@@ -14,7 +14,7 @@
     },
     {
         "category_id": "1",
-        "_id": "2",
+        "category_name": "Sedan",
         "model_name": "Toyota Axio",
         "img": "https://static.clickbd.com/global/classified/item_img/1864507_0_original.jpg",
         "location": "Dhaka",
@@ -27,7 +27,7 @@
     },
     {
         "category_id": "1",
-        "_id": "3",
+        "category_name": "Sedan",
         "model_name": "Toyota Centerbury",
         "img": "http://carcollection.co.nz/wp-content/uploads/toyota-wrecking.jpg",
         "location": "Dhaka",
@@ -40,7 +40,7 @@
     },
     {
         "category_id": "2",
-        "_id": "1",
+        "category_name": "SUV",
         "model_name": "Range Rover",
         "img": "https://i.ibb.co/HnjjZ2b/SUV1.jpg",
         "location": "Dhaka",
@@ -53,7 +53,7 @@
     },
     {
         "category_id": "2",
-        "_id": "2",
+        "category_name": "SUV",
         "model_name": "Honda MTV",
         "img": "https://i.ibb.co/S5K2YWt/suv2.webp",
         "location": "Dhaka",
@@ -66,7 +66,7 @@
     },
     {
         "category_id": "3",
-        "_id": "1",
+        "category_name": "Microbus",
         "model_name": "Hiace",
         "img": "https://i.ibb.co/zQCsR5n/micro1.jpg",
         "location": "Dhaka",
@@ -79,7 +79,7 @@
     },
     {
         "category_id": "3",
-        "_id": "2",
+        "category_name": "Microbus",
         "model_name": "Volks Wagen",
         "img": "https://i.ibb.co/ZL6zvwY/micro2.jpg",
         "location": "Dhaka",
@@ -92,7 +92,7 @@
     },
     {
         "category_id": "6",
-        "_id": "1",
+        "category_name": "Super Cars",
         "model_name": "Maclaren",
         "img": "https://i.ibb.co/WfSWT7f/supercar1.webp",
         "location": "Dhaka",
@@ -105,7 +105,7 @@
     },
     {
         "category_id": "6",
-        "_id": "2",
+        "category_name": "Super Cars",
         "model_name": "Buggati",
         "img": "https://i.ibb.co/xFT71r4/supercar2.webp",
         "location": "Dhaka",
@@ -118,7 +118,7 @@
     },
     {
         "category_id": "6",
-        "_id": "3",
+        "category_name": "Super Cars",
         "model_name": "Ferrari",
         "img": "https://i.ibb.co/b20PbZ7/supercar3.webp",
         "location": "Dhaka",
@@ -131,7 +131,7 @@
     },
     {
         "category_id": "4",
-        "_id": "1",
+        "category_name": "Pickup",
         "model_name": "Tata Bolero",
         "img": "https://i.ibb.co/6gx7syH/pickup.webp",
         "location": "Dhaka",
@@ -144,7 +144,7 @@
     },
     {
         "category_id": "4",
-        "_id": "2",
+        "category_name": "Pickup",
         "model_name": "Toyota Beast",
         "img": "https://i.ibb.co/4fJ7y5j/picup3.webp",
         "location": "Dhaka",
@@ -157,7 +157,7 @@
     },
     {
         "category_id": "4",
-        "_id": "3",
+        "category_name": "Pickup",
         "model_name": "Toyota Beast 2",
         "img": "https://i.ibb.co/GM5rh8Z/pickup2.jpg",
         "location": "Dhaka",
@@ -170,7 +170,7 @@
     },
     {
         "category_id": "5",
-        "_id": "1",
+        "category_name": "Van",
         "model_name": "Van 1",
         "img": "https://i.ibb.co/hD9vLxd/van3.jpg",
         "location": "Dhaka",
@@ -183,7 +183,7 @@
     },
     {
         "category_id": "5",
-        "_id": "2",
+        "category_name": "Van",
         "model_name": "Van 2",
         "img": "https://i.ibb.co/zr670Yr/van2.jpg",
         "location": "Dhaka",
@@ -196,7 +196,7 @@
     },
     {
         "category_id": "5",
-        "_id": "3",
+        "category_name": "Van",
         "model_name": "Van 3",
         "img": "https://i.ibb.co/RzL7GFX/van1.jpg",
         "location": "Dhaka",

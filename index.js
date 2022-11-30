@@ -35,7 +35,7 @@ async function run(){
             res.send(allCars);
         })
         
-        // getting selectedCars data from the database
+        // getting selectedCars category data from the database
         app.get('/categories', async(req, res)=>{
             const query = {};
             const cursor = selectedCarsData.find(query);
@@ -62,9 +62,6 @@ async function run(){
             
         })
 
-        app.get('/categories', (req, res)=>{
-
-        })
     }
     finally{}
 }
@@ -80,10 +77,6 @@ app.get('/', (req, res) => {
     res.send('Dream Car server is Running');
 });
 
-
-// app.get('/categories', (req, res) =>{
-//     res.send(carCategories);
-// })
 
 
 

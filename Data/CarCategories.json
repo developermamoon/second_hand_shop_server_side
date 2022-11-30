@@ -1,36 +1,36 @@
 [
     {
-        "category_id": 1,
+        "category_id": "1",
         "category_name": "Sedan",
-        "color": "bg-primary"
+        "color": "bg-gradient-to-r from-primary to-secondary"
     },
     {
-        "category_id": 2,
+        "category_id": "2",
         "category_name": "SUV",
-        "color": "bg-accent"
+        "color": "bg-gradient-to-r from-primary to-secondary"
     },
     {
-        "category_id": 3,
+        "category_id": "3",
         "category_name": "Microbus",
-        "color": "bg-secondary"
+        "color": "bg-gradient-to-r from-primary to-secondary"
     },
     {
-        "category_id": 4,
+        "category_id": "4",
         "category_name": "Pickup",
-        "color": "bg-secondary"
+        "color": "bg-gradient-to-r from-primary to-secondary"
     },
     {
-        "category_id": 5,
+        "category_id": "5",
         "category_name": "Van",
         "color": "bg-gradient-to-r from-primary to-secondary"
     },
     {
-        "category_id": 6,
+        "category_id": "6",
         "category_name": "Super Cars",
-        "color": "bg-accent"
+        "color": "bg-gradient-to-r from-primary to-secondary"
     },
     {
-        "category_id": 7,
+        "category_id": "7",
         "category_name": "All Cars",
         "color": "bg-gradient-to-r from-primary to-secondary"
     }

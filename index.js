@@ -36,6 +36,8 @@ async function run(){
             res.send(allCars);
         })
 
+        
+
         //getting the booking form data and sending to the database
         app.post('/bookingCar', async (req, res) => {
             const booker = req.body; //getting the data from the client

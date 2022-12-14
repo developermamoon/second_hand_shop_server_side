@@ -25,6 +25,7 @@ async function run(){
 
         const allCarsData = client.db('SellAnyCarServer').collection('AllCars');
         const selectedCarsData = client.db('SellAnyCarServer').collection('categoryNames');
+        const bookingCarData = client.db('SellAnyCarServer').collection('bookingCar');
         
         
         // getting allCars data from the database
@@ -33,6 +34,14 @@ async function run(){
             const cursor = allCarsData.find(query);
             const allCars = await cursor.toArray();
             res.send(allCars);
+        })
+
+        //getting the booking form data and sending to the database
+        app.post('/bookingCar', async (req, res) => {
+            const booker = req.body; //getting the data from the client
+            console.log(booker)
+            const result = await bookingCarData.insertOne(booker); //sending data to the server
+            res.send(result);            
         })
         
         // getting selectedCars category data from the database
@@ -65,6 +74,7 @@ async function run(){
     }
     finally{}
 }
+
 
 run().catch(err=>{
     console.log(err);
